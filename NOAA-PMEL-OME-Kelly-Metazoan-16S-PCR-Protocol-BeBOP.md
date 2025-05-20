@@ -159,7 +159,7 @@ The protocol presented here is intended as the first PCR of a two-step PCR next 
 
 ### Method Description and Rationale
 
-This protocol was chosen because it has successfully identified a range of key benthic marine invertebrate species of interest and provides high complimentarity to the Leray CO1 target (Gold et al. 2022). Our protocol uses the same polymerase and chemistry as MBARI and MBON Leray CO1 protocols, but is only 25 µL in total reaction volume. We used the CaleDNA thermocycling conditions described in Gold et al. 2022 given previous success of the method. We intentionally chose this protocol to promote harmonization of ocean biomolecular observations and allow PMEL OME to utilize existing lab reagents used for other targets used in the lab (e.g. Leray CO1).
+This protocol was chosen because it has successfully identified a range of key benthic marine invertebrate species of interest and provides high complimentarity to the Leray CO1 target [Gold et al. 2022](https://doi.org/10.7717/peerj.14071). Our protocol uses the same polymerase and chemistry as MBARI and MBON Leray CO1 protocols, but is only 25 µL in total reaction volume. We used the CaleDNA thermocycling conditions described in Gold et al. 2022 given previous success of the method. We intentionally chose this protocol to promote harmonization of ocean biomolecular observations and allow PMEL OME to utilize existing lab reagents used for other targets used in the lab (e.g. Leray CO1).
 
 This amplification protocol is accessible to most molecular biology labs.
 

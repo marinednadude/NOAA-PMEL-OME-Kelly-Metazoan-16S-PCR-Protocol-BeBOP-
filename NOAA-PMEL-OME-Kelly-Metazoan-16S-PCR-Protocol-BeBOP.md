@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 225
 personnel_required: 1
 language: en
-issued: 2025-05-20
+issued: 2025-05-29
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -103,8 +103,8 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| OME Gel electrophoresis protocol (in progress)  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
-| Kelly et al. 2016 Protocol | [https://github.com/MBARI-BOG/MBON-Protocols/blob/main/eDNA_COI_PCR_V2.md](https://peerj.com/articles/2444/#supp-2) | V1 | 2016-09-03 | External|
+| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
+| Kelly et al. 2016 | [https://github.com/MBARI-BOG/MBON-Protocols/blob/main/eDNA_COI_PCR_V2.md](https://peerj.com/articles/2444/#supp-2) | V1 | 2016-09-03 | External|
 
 ### Protocol Revision Record
 
@@ -116,6 +116,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-05-30 | Initial release |
 | 1.1.0 | 2025-05-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
+| 1.1.1 | 2025-05-29 | Minor acronym and content revisions  |
 
 ### Acronyms and Abbreviations
 
@@ -123,19 +124,20 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | ------------- | ------------- |
 |16S | 16S Mitochondrial Ribosomal RNA gene|
 |BSC	|Biosafety cabinet|
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies|
+|DNA	|Deoxyribonucleic acid|
 |eDNA	|environmental DNA|
 |EtOH| Ethanol|
-|IDT| Integrated DNA Technologies
+|IDT| Integrated DNA Technologies|
 |MBARI| Monterey Bay Aquarium Research Institute|
 |MBON	|Marine Biodiversity Observation Network|
 |NOAA|National Oceanic and Atmospheric Administration|
-|NTC	|No template control
-|OME	|Ocean Molecular Ecology
+|NTC	|No template control|
+|OME	|Ocean Molecular Ecology|
 |PCR| Polymerase chain reaction |
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE    | Personal protective equipment |
-|UW| University of Washington
+|UW| University of Washington|
 |WC-OBON|West Coast Ocean Biomolecular Observing Network|
 
 ### Glossary
@@ -143,7 +145,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
 | Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step. |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step. |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like a seawater eDNA sample to control for contamination in the field sampling step. |
 | No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
 | Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
@@ -302,7 +304,7 @@ This table breaks down the mixture per plate and per reaction. When running full
 
 1. Set out primers and positive control to thaw.
 2. Vortex and spin down thawed positive control, primers, and nuclease free water. Then tap/flick AmpliTaq rather than vortexing before spinning down. Thawed reagents should be stored in a cooling block or fridge when not in use.
-3. Pool reagents to make final master mix, as denoted in above in reagent mixture table.
+3. Pool reagents to make final master mix, as denoted in the reagent mixture table.
 4. Set out template DNA to thaw if frozen.
 5. Aliquot 23 μL of final master mix into each well of the PCR plate. The plate should sit in a cold block to ensure the reagents remain at a low temperature.
 6. Add 2 μL DNA template to each well (See [Kelly Metazoan 16S PCR Draft Protocol Sheet](https://docs.google.com/spreadsheets/d/1zDpYj6jRlBZoxFoM1SQtEGYNXPSSJeQZxYnR57Z5iyU/edit#gid=1701210116)), but reserve two wells for the positive control and a no template control (NTC). 
@@ -314,7 +316,7 @@ This table breaks down the mixture per plate and per reaction. When running full
 ### Quality Control
 
 1. Plates should be removed from the thermocycler  after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 month term storage, while -80˚C is ideal for long-term storage.
-2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-GelVisualization-Protocol pending]
+2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP pending]
 
 #### Positive Control
 A positive control is used in every PCR run to verify success of the PCR reaction. 2μL of positive control diluted to 10^3 copies/µL is used in place of template DNA. One well per plate is alotted for the positive control. The positive control used for Kelly Metazoan 16S is the extinct Dodo (*Raphus cucullatus*) native to Mauritius. The reference sequence used to develop the positive control sequence can be found on GenBank: [Accession KX902236.1](https://www.ncbi.nlm.nih.gov/nuccore/KX902236.1)

@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 225
 personnel_required: 1
 language: en
-issued: 2025-05-29
+issued: 2025-06-10
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -60,7 +60,7 @@ pcr_rep: 1.0
 nucl_acid_amp: https://doi.org/10.5281/zenodo.11398148
 pcr_cond: initial denaturation:95_15;touchdown_cycling;denaturation:94_0.5;annealing:69.5-51.5_0.5;elongation:72_1.5;13; normal_cycling;denaturation:94_0.5;annealing:50_0.50;elongation:72_0.75;final elongation:72_10;25
 annealingTemp: not applicable
-pcr_cycles: not applicable
+pcr_cycles: 38
 pcr_analysis_software:"missing: not provided"
 pcr_method_additional: Quality was validated via confirmation of a product on a gel.
 ---
@@ -103,7 +103,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
+| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP.md | 1.0.0 | 2025-06-04 | Internal  |
 | Kelly et al. 2016 | [https://github.com/MBARI-BOG/MBON-Protocols/blob/main/eDNA_COI_PCR_V2.md](https://peerj.com/articles/2444/#supp-2) | V1 | 2016-09-03 | External|
 
 ### Protocol Revision Record
@@ -117,6 +117,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.0.0 | 2024-05-30 | Initial release |
 | 1.1.0 | 2025-05-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-29 | Minor acronym and content revisions  |
+| 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis protocol, new acronym, and updated reaction mixture concentrations |
 
 ### Acronyms and Abbreviations
 
@@ -137,6 +138,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 |PCR| Polymerase chain reaction |
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE    | Personal protective equipment |
+|UV| Ultraviolet|
 |UW| University of Washington|
 |WC-OBON|West Coast Ocean Biomolecular Observing Network|
 
@@ -273,7 +275,7 @@ For a 96-well Plate:
 
 | Reagent |Volume (μL) per plate| Volume (μL) per reaction | Intial concentration| Final concentration|
 | ----- | ----- | ----- |----- |----- |
-| AmpliTaq Gold Fast PCR Master Mix |1300| 12.5 |100% |50% |
+| AmpliTaq Gold Fast PCR Master Mix |1300| 12.5 |200% |100% |
 | Forward Primer |104|1|5 μM |0.2 μM |
 | Reverse Primer |104|1 |5 μM | 0.2 μM |
 | Nuclease-Free Water |884|8.5 | N/A|N/A |

@@ -7,7 +7,7 @@ analyses: PCR [OBI:0000415]
 geographic_location: 'North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323], Lake Washington [GAZ:00008722]'
 broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209], freshwater biome [ENVO:00000873]
 local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024], freshwater lake biome [ENVO:01000252], estuary [ENVO:00000045]
-environmental_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011]
+environmental_medium: sea water [ENVO:00002149], fresh water [ENVO:00002011], organic material [ENVO:01000155]
 target: 16S Mitochondrial Ribosomal RNA [NCIT_C131261]
 creator: Shannon Brown, Han Weinrich, Zachary Gold
 materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989]
@@ -15,10 +15,10 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 225
 personnel_required: 1
 language: en
-issued: 2025-11-06
+issued: 2025-11-14
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-hasVersion: 1
+hasVersion: 1.2.1
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -118,7 +118,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.1.0 | 2025-05-20 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-29 | Minor acronym and content revisions  |
 | 1.2.0 | 2025-06-10 | Adding Gel Electrophoresis protocol, new acronym, and updated reaction mixture concentrations |
-| 1.2.1 | 2025-11-06 | Clarified safety guidelines, added freshwater reference, and negative control language |
+| 1.2.1 | 2025-11-14 | Clarified safety guidelines, added freshwater reference, and negative control language |
 
 ### Acronyms and Abbreviations
 
@@ -170,7 +170,7 @@ This amplification protocol is accessible to most molecular biology labs.
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-This protocol has been used to amplify extracted DNA from thousands of filtered seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea, and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska), as well as freshwater samples from the freshwater Lake Washington. Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
+This protocol has been used to amplify extracted DNA from thousands of filtered seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea, and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska), as well as freshwater samples from the freshwater Lake Washington. Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf). This protocol has also been used to amplify extracted DNA from organic material such as tissue subsamples and plankton tows.
 
 ### Personnel Required
 
